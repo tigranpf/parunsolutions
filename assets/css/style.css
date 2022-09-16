@@ -1,0 +1,332 @@
+html {
+    scroll-behavior: smooth;
+  }
+body{
+  font-family: 'Poppins', sans-serif;
+  
+}
+ul {
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+  transition: all 0.2s;
+  color: #000;
+
+}
+.navbar{
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+
+.nav-item a{
+  margin-left: 15px;
+  text-transform: Uppercase;
+
+}
+
+.navbar-brand{
+  font-size: 26px;
+  font-weight: 300;
+  letter-spacing: 0px;
+}
+.plogo{
+  font-weight: 500;
+}
+
+.nv{
+    background-color: #635CDB;
+}
+
+.covermain{
+  background-image: url(../img/ag1.jpg);
+  width: 100%;
+  height: 800px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.btn-white{
+  background-color: white;
+  border-radius: 40px;
+}
+.overlay{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: inherit;
+  background: rgba(0, 0, 0, 0.66);
+  letter-spacing: 1.5px;
+}
+
+a.btn.btn-white.px-4.py-2:hover{
+  background-color: #635CDB;
+}
+
+h1{
+  font-weight: 1000;
+  font-size: 45px;
+}
+
+p{
+  font-size: 17px;
+  font-weight: 300;
+}
+
+.section-heading{
+  width: 70%;
+  margin: 0px auto;
+}
+.lead {
+  line-height: 40px;
+  font-weight: 500;
+  font-size: 30px;
+  text-align: center;
+}
+
+.introbox {
+  margin-top: 30px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.introbox span {
+  font-size: 28px;
+  color: #635CDB;
+}
+.headp, #about p{
+font-size: 16px;
+font-weight: 400;
+font-family: "Rubik", sans-serif;
+color: #788487;
+}
+#about{
+position: relative;
+}
+
+.about-bg-img{
+  background-image: url(../img/ag2.jpg);
+  position: absolute;
+  right: 0px;
+  width: 40%;
+  height: 100%;
+  max-height: 600px;
+  background-position: center;
+  background-size: cover;
+}
+
+.about-list li{
+  margin-top: 10px;
+}
+.about-list li svg{
+  font-size: 22.5px;
+  color: #635CDB;
+  margin-right: 10px;
+}
+
+.subtitle{
+  font-size: 20px;
+  color: #635CDB;
+  font-weight: 300;
+}
+
+#solutions {
+  padding-bottom: 100px;
+  padding-top: 90px;
+  text-align: center;
+  position: relative;
+}
+.bg-solutions{
+background-color: #635CDB;
+}
+
+#solutions h4{
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 33px;
+}
+
+#services{
+  margin-top: -50px;
+  z-index: 100;
+  position: relative;
+  width: 100%;
+  
+}
+
+.box {
+  margin-bottom: 40px;
+  background: #fff;
+  text-align: center;
+  padding: 35px 25px 30px 25px;
+  border: 1px solid transparent;
+  transition: all .3s ease 0s;
+  border-radius: 5px;
+  box-shadow: 0px 2px 6px rgb(0 0 0 / 10%);
+  height: 250px;
+}
+
+.service-icon .iconify{
+  font-size: 50px;
+  color: #635CDB;
+  margin-bottom: 15px;
+}
+
+#footer {
+  padding-bottom: 60px;
+}
+
+#footer .plogo{
+color: #635CDB;
+font-weight: 500;
+}
+
+.ot a{
+  color: #635CDB;
+}
+
+.footer-social a{
+  font-size: 32px;
+  margin-left: 15px;
+}
+
+.c{
+  font-size: 18px;
+}
+
+.coverteam{
+  background-image: url(../img/team1.jpg);
+  width: 100%;
+  height: 800px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.counter {
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 700;
+  line-height: 70px;
+  margin: 10px 0px;
+}
+
+.cs{
+  height: 185px;
+  padding-top: 35px;
+}
+
+.teampadding{
+  padding-bottom: 150px;
+  padding-top: 30px;
+  margin: 30px 0;
+  
+}
+
+.team-social{
+  font-size: 30px;
+}
+
+.teamn p{
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Rubik", sans-serif;
+  color: #788487;
+}
+.txt{
+font-size: 16px;
+  font-weight: 400;
+  font-family: "Rubik", sans-serif;
+  color: #788487;}
+
+.covercenovnik{
+  background-image: url(../img/cenovnikbg.jpg);
+  width: 100%;
+  height: 800px;
+  background-size: cover;
+  background-position: center center;
+}
+
+#pricing .carousel-indicators li{
+background-color: #635CDB;
+}
+
+.btn-order{
+  border: 1px solid #635CDB;
+  border-radius: 30px;
+  padding: 5px 20px;
+}
+
+.btn-order:hover{
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #635CDB;
+  --bs-btn-hover-border-color: #635CDB
+}
+.card-body{
+  text-align: center;
+}
+
+
+.covercontact{
+  background-image: url(../img/con1.jpg);
+  width: 100%;
+  height: 800px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.form p{
+  font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    font-family: "Rubik", sans-serif;
+    color: #788487;
+}
+.form h4{
+  font-weight: 500;
+    line-height: 1.2;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+  position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.coverautor{
+  background-image: url(../img/aut.jpg);
+  width: 100%;
+  height: 800px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.bgautor{
+  background-color: #635CDB;
+  color: white;
+  border: 1px solid white;
+}
+
+.bgautor a{
+  color: white;
+  margin-top: 18px;
+}
+
+.bgautor p{
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.bgautor p svg{
+  margin-right: 10px;
+}
+
+.bgautor h2{
+  font-size: 32px;
+
+}
+
